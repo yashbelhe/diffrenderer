@@ -1,0 +1,9 @@
+bounds_min, bounds_max = -2.0, 2.0
+# H, W = 5, 5
+# S = 501
+# S = 101
+S = 201
+px_sz = (bounds_max - bounds_min)/(S - 1.0)
+aa_N = 1
+edge_samples_N = 100
+eps_es = 1e-5
